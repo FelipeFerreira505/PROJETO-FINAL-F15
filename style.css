@@ -1,0 +1,62 @@
+*{
+text-decoration:none;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logotipo {
+    width: 164px;
+    margin: 22px;
+}
+
+.menu { 
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.menu.item {
+    margin-right: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.menu.link {
+    text-decoration: none;
+    color: #373f41;
+    padding: 5px;
+}
+
+.menu.link:hover{
+    color: #da5b07;
+    
+    
+}
+
+.botao{
+    background-color: #f24b78;
+    color: white;
+    border-radius: 30px;
+    height: 42px;
+    width: 177px;
+    font: 16px;
+    border: none;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    text-align: center;
+}
+
+h2{ font-family:cursive ;
+   color: blue;
+   text-align: center;
+}
